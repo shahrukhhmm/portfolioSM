@@ -1,0 +1,8 @@
+export const cvPath = '/SHAHrukh%20CV%20Comprehensive.pdf'
+export const email = 'shahrukh862001@gmail.com'
+export const phone = '+92 344 5566158'
+export const phoneRaw = '+923445566158'
+export const whatsappUrl = 'https://wa.me/923445566158?text=Hi%20Shahrukh,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20connect.'
+export const linkedinUrl = 'https://linkedin.com/in/shahrukh-mehmood-2921bb22a'
+export const githubUrl = 'https://github.com/shahrukhhmm'
+export const livePortfolioUrl = 'https://shahrukhmm-portfolio.netlify.app'

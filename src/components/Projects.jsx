@@ -35,7 +35,7 @@ export default function Projects() {
             Selected Work &amp; Production Systems
           </h2>
           <p className="section-subtitle">
-            Explore 20 production systems across SaaS platforms, AI integrations, business CRMs, and e-commerce platforms. Click any project to inspect its architecture and features.
+            Explore {projects.length} production systems across SaaS platforms, IoT telemetry, AI directories, business CRMs, and e-commerce platforms. Click any project to inspect its architecture and features.
           </p>
         </div>
 

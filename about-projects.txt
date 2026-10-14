@@ -1,0 +1,107 @@
+almulla:
+stack: laravel,sql,livewire,alpinejs,js,html,css, flutter 
+payment method: n-genius 
+api integration: travel port and TBO 
+hotel and flight booking website with multi provider
+user can book flight and hotel and manage their booking
+vendors can manage their flights and hotels, also there is the app for it 
+dubai based company 
+url"https://almullatravels.com/en
+
+box-tech:
+stack: Node , react , mongo, express, C#
+api integration: flespi, osm for map, kafaka for real time data from device
+ui in next and the dashbaord is used to show the device real location and the location and other detail of the device first we sue the flespi and get the data from there api after that we use C# to communicate wth the device and the data get from the device and save the data in the database and show it on the map , use open map 
+dubai base
+url:https://boxtech.ai/
+
+gridsolarinstallation:
+stack: laravel,sql,blade
+SEO complete
+dashboard to enter tha multiple page sna do add the contetn on the ui and the image  , save it in the database and show it on the ui and the pages include  home page, about page, contact page and prodcut ad other product pages 
+local based company 
+url:https://gridsolarinstallations.com/
+
+leadselling:
+stack: laravel, livwire, mysql 
+hosting: hostinger
+its a lead selling platform which help to sell the leads with different users in a single dashboard 
+user can register and buy leads and sell the leads
+admin can manage the users and the leads and the transaction
+user can create a wallet and add amount to it and then use it to buy leads
+user can also sell the leads to other users 
+user can also buy the leads from other users 
+admin can create a wallet and add amount to it and then use it to buy leads
+admin can also sell the leads to other users 
+admin can also buy the leads from other users 
+user have two type of wallet user can sell or buy 
+user can create a wallet and add amount to it and then use it to buy leads 
+user can also sell the leads to other users 
+user can also buy the leads from other users 
+pakistan based company 
+
+
+meryal waterpark:
+stack : laravel, blade, next js , mysql , rest api, tailwind css, flutter 
+api : qpay, gpay
+hosting: cloudflare vps 
+its a ecommerce platform for  waterpark tickets and other activities the products are like ticket, cab booking, hotel booking and other activities, also there is the app for it 
+dubai base project 
+url:https://meryalwaterpark.com/
+
+simplefixx
+stack: laravel, sql,blade, react
+hosting: hostinger 
+its a platform for  handyman service provider  user can find the handyman and book them for the service and the handyman can manage their bookings and the service provide
+USA based company 
+url:https://www.simplefixrx.com/
+
+startexoil
+stack:laravel, mysql, socket, ftp, flutter , cron 
+hosting: hostinger
+i this we get the prices from the ftp and shwo the prices to the users and the prices is in the pdf format and user can download the pdf and save it in the database , it is company to transport the fuel , and the user can buy the fuel from the company and the company will transport the fuel to the user 
+kuwait based company, ther si an app also for deriver and the ui is for the user 
+USA based company 
+url : https://startexoil.net/
+
+technocheck :
+stack: php, mysql and multiple other tools 
+it a  company who print the cheque printing so we make a system which automate there complete flow , and the other system is for the choll amnagement and each and everythign si implemented in it 
+hsoting: cloudflare ftp
+Duabi  based company 
+url: https://techno-check.com/
+
+waywegaming:
+stack: react, for backend i use react to edit the json file and save the data in frontend json and get that data from json for contact, careers and the game pages 
+hosting : godadday vps cpanel 
+US based company 
+url:https://www.waywegaming.com/
+
+zaman cargo :
+stack laravel, mysql 
+it is a project for the cargo company accounts system to make a ledger, accounts ledger, invoice, payment voucher, reciept, manage staff salary, staff salary ledger, employee salary, employee salary ledger, etc 
+to managing there client and there detail and print the ledger and other details 
+hsoting: hostinger
+url: https://zamanscargo.com/
+
+zimo meet:
+stack: laravel , next , mysql , rest api , jitsi meet 
+this is a video conferencing platform for the users to join the meeting and talk to each other and also share their screen and other things , and also manage there meeting , and also create a meeting and join the meeting and schedule a meeting , etc 
+hosting : AWS , ec2
+UK based company
+url:https://zimomeet.com/
+
+
+zi transfer: 
+stack: laravel , next , mysql , rest api
+hosting: AWS ec2 , lambda, S3 ,cloudfront
+use to transfer the data and the file like wetransfer , 
+UK based company
+url: https://zitransfer.com/
+
+zi pro:
+stack: laravel , next , mysql , rest api
+hosting: AWS S3 ,cloudfront
+
+UK based company
+url: https://zipro.com/

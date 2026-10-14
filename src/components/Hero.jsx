@@ -104,7 +104,7 @@ export default function Hero({ copyToClipboard }) {
           <div className="portrait-frame">
             <div className="portrait-img-wrap">
               <img
-                src="/images/author-2.jpeg"
+                src="/images/author-professional.jpeg"
                 alt="Shahrukh Malik — Full-Stack Developer & Technical Lead"
                 loading="eager"
               />

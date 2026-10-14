@@ -34,6 +34,29 @@ export default function ProjectModal({ project, onClose }) {
             <h3 className="modal-title">{project.name}</h3>
             <p className="modal-desc">{project.fullDescription}</p>
 
+            {(project.role || project.location || project.hosting) && (
+              <div className="modal-meta-strip">
+                {project.location && (
+                  <div className="modal-meta-pill">
+                    <span className="modal-meta-label">Location:</span>
+                    <span className="modal-meta-val">{project.location}</span>
+                  </div>
+                )}
+                {project.hosting && (
+                  <div className="modal-meta-pill">
+                    <span className="modal-meta-label">Hosting:</span>
+                    <span className="modal-meta-val">{project.hosting}</span>
+                  </div>
+                )}
+                {project.role && (
+                  <div className="modal-meta-pill">
+                    <span className="modal-meta-label">Role:</span>
+                    <span className="modal-meta-val">{project.role}</span>
+                  </div>
+                )}
+              </div>
+            )}
+
             <h4 className="modal-section-h4">
               <Check size={16} style={{ color: 'var(--accent)' }} />
               <span>Key Capabilities &amp; Engineering Highlights</span>

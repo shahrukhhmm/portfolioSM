@@ -1,6 +1,22 @@
+import { useEffect } from 'react'
 import { Check, ExternalLink, Layers3, X } from 'lucide-react'
 
 export default function ProjectModal({ project, onClose }) {
+  useEffect(() => {
+    if (project) {
+      const originalOverflow = document.body.style.overflow
+      document.body.style.overflow = 'hidden'
+      const handleKeyDown = (e) => {
+        if (e.key === 'Escape') onClose()
+      }
+      window.addEventListener('keydown', handleKeyDown)
+      return () => {
+        document.body.style.overflow = originalOverflow
+        window.removeEventListener('keydown', handleKeyDown)
+      }
+    }
+  }, [project, onClose])
+
   return (
     <>
     {project && (

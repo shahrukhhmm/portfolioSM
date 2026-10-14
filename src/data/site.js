@@ -1,4 +1,6 @@
-export const cvPath = '/SHAHrukh%20CV%20Comprehensive.pdf'
+export const cvPath = '/Shahrukh_Malik_Resume.pdf'
+export const cvShortPath = '/Shahrukh_Malik_Resume.pdf'
+export const cvComprehensivePath = '/SHAHrukh%20CV%20Comprehensive.pdf'
 export const email = 'shahrukh862001@gmail.com'
 export const phone = '+92 344 5566158'
 export const phoneRaw = '+923445566158'

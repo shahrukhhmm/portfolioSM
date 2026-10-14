@@ -36,13 +36,12 @@ export default function Hero({ copyToClipboard }) {
 
             <a
               href={cvPath}
-              target="_blank"
-              rel="noreferrer"
+              download="Shahrukh_Malik_Resume.pdf"
               className="btn-secondary"
-              title="View Comprehensive Resume PDF"
+              title="Download Shahrukh Malik Resume (PDF)"
             >
               <FileText size={16} />
-              <span>Download CV (PDF)</span>
+              <span>Download Resume (PDF)</span>
             </a>
 
             <a

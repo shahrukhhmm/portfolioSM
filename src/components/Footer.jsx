@@ -14,7 +14,7 @@ export default function Footer() {
           <a href="#projects">Work</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
-          <a href={cvPath} target="_blank" rel="noreferrer">Résumé PDF</a>
+          <a href={cvPath} download="Shahrukh_Malik_Resume.pdf">Résumé PDF</a>
         </div>
 
         <button

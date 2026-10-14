@@ -128,13 +128,13 @@ export default function Contact({ copyToClipboard, showToast }) {
               </a>
               <a
                 href={cvPath}
-                target="_blank"
-                rel="noreferrer"
+                download="Shahrukh_Malik_Resume.pdf"
                 className="btn-secondary"
                 style={{ fontSize: '12px', padding: '8px 14px' }}
+                title="Download Shahrukh Malik Resume (PDF)"
               >
                 <FileDown size={14} />
-                <span>CV (PDF)</span>
+                <span>Resume (PDF)</span>
               </a>
             </div>
           </div>

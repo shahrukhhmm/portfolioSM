@@ -36,13 +36,12 @@ export default function Header({ theme, toggleTheme, mobileMenuOpen, setMobileMe
 
           <a
             href={cvPath}
-            target="_blank"
-            rel="noreferrer"
+            download="Shahrukh_Malik_Resume.pdf"
             className="btn-header-cv"
-            title="Download Shahrukh Malik Comprehensive CV"
+            title="Download Shahrukh Malik Resume (PDF)"
           >
             <FileDown size={14} />
-            <span>CV (PDF)</span>
+            <span>Resume (PDF)</span>
           </a>
 
           <a href="#contact" className="btn-header-cta">
@@ -75,13 +74,12 @@ export default function Header({ theme, toggleTheme, mobileMenuOpen, setMobileMe
         <div className="mobile-actions">
           <a
             href={cvPath}
-            target="_blank"
-            rel="noreferrer"
+            download="Shahrukh_Malik_Resume.pdf"
             className="btn-primary"
             style={{ justifyContent: 'center' }}
           >
             <FileDown size={16} />
-            <span>Download Comprehensive CV</span>
+            <span>Download Resume (PDF)</span>
           </a>
           <a
             href={whatsappUrl}

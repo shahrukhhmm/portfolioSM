@@ -98,13 +98,12 @@ export default function Experience() {
               </p>
               <a
                 href={cvPath}
-                target="_blank"
-                rel="noreferrer"
+                download="Shahrukh_Malik_Resume.pdf"
                 className="btn-header-cv"
                 style={{ marginTop: '16px', display: 'flex', justifyContent: 'center' }}
               >
                 <FileDown size={14} />
-                <span>Download Complete Résumé</span>
+                <span>Download Executive Résumé (PDF)</span>
               </a>
             </div>
           </aside>

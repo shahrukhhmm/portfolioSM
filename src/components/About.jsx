@@ -44,7 +44,7 @@ export default function About() {
               <div className="pillar-icon">
                 <Code2 size={22} />
               </div>
-              <h4>Full-Stack Mastery</h4>
+              <h3>Full-Stack Mastery</h3>
               <p>Deep expertise in Laravel/PHP and Node.js/MERN stacks, writing clean, maintainable, and type-safe architectures.</p>
             </div>
 
@@ -52,7 +52,7 @@ export default function About() {
               <div className="pillar-icon">
                 <Globe size={22} />
               </div>
-              <h4>Fleet Operations (200+)</h4>
+              <h3>Fleet Operations (200+)</h3>
               <p>Orchestrating large multi-domain portfolios, automated Cloudflare caching, DNS routing, and technical SEO dashboards.</p>
             </div>
 
@@ -60,7 +60,7 @@ export default function About() {
               <div className="pillar-icon">
                 <Brain size={22} />
               </div>
-              <h4>AI & RAG Integrations</h4>
+              <h3>AI &amp; RAG Integrations</h3>
               <p>Connecting LLMs, Retrieval-Augmented Generation, and n8n automations directly into production business workflows.</p>
             </div>
 
@@ -68,7 +68,7 @@ export default function About() {
               <div className="pillar-icon">
                 <Users size={22} />
               </div>
-              <h4>Technical Leadership</h4>
+              <h3>Technical Leadership</h3>
               <p>Sprint planning, live coding inspections, code reviews, and aligning engineering with product and marketing objectives.</p>
             </div>
           </div>

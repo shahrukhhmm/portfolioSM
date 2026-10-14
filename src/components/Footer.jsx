@@ -14,12 +14,14 @@ export default function Footer() {
           <a href="#projects">Work</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
-          <a href={cvPath} download="Shahrukh_Malik_Resume.pdf">Résumé PDF</a>
+          <a id="footer-resume-link" href={cvPath} download="Shahrukh_Malik_Resume.pdf">Résumé PDF</a>
         </div>
 
         <button
+          id="footer-back-to-top-btn"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="btn-back-to-top"
+          aria-label="Scroll back to top of page"
         >
           <span>Back to Top</span>
           <ChevronDown size={14} style={{ transform: 'rotate(180deg)' }} />

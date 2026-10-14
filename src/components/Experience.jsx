@@ -67,10 +67,10 @@ export default function Experience() {
           {/* Sidebar: Education & Quick Info */}
           <aside className="experience-sidebar">
             <div className="sidebar-box">
-              <h4 className="sidebar-box-title">
+              <h3 className="sidebar-box-title">
                 <GraduationCap size={18} style={{ color: 'var(--accent)' }} />
                 <span>Education</span>
-              </h4>
+              </h3>
 
               <div className="edu-entry">
                 <div className="edu-degree">Bachelor of Science in Computer Science (BSCS)</div>
@@ -86,10 +86,10 @@ export default function Experience() {
             </div>
 
             <div className="sidebar-box" style={{ background: 'var(--bg-card-subtle)' }}>
-              <h4 className="sidebar-box-title">
+              <h3 className="sidebar-box-title">
                 <Award size={18} style={{ color: 'var(--accent-cyan)' }} />
                 <span>Core Profile Summary</span>
-              </h4>
+              </h3>
               <p style={{ fontSize: '12px', lineHeight: '1.7', color: 'var(--text-secondary)' }}>
                 <strong>Role:</strong> Full-Stack Developer &amp; Technical Lead<br />
                 <strong>Experience:</strong> 5+ Years<br />

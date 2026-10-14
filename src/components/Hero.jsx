@@ -29,12 +29,13 @@ export default function Hero({ copyToClipboard }) {
           </p>
 
           <div className="hero-buttons">
-            <a href="#projects" className="btn-primary">
+            <a id="hero-explore-projects-btn" href="#projects" className="btn-primary">
               <span>Explore Projects</span>
               <ArrowRight size={16} />
             </a>
 
             <a
+              id="hero-download-resume-btn"
               href={cvPath}
               download="Shahrukh_Malik_Resume.pdf"
               className="btn-secondary"
@@ -45,6 +46,7 @@ export default function Hero({ copyToClipboard }) {
             </a>
 
             <a
+              id="hero-whatsapp-btn"
               href={whatsappUrl}
               target="_blank"
               rel="noreferrer"
@@ -60,37 +62,45 @@ export default function Hero({ copyToClipboard }) {
             <span>CONNECT DIRECTLY:</span>
             <div className="social-links-group">
               <a
+                id="hero-linkedin-btn"
                 href={linkedinUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="social-icon-btn"
                 title="Shahrukh Malik LinkedIn"
+                aria-label="Shahrukh Malik LinkedIn Profile"
               >
                 <Linkedin size={16} />
               </a>
 
               <a
+                id="hero-github-btn"
                 href={githubUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="social-icon-btn"
                 title="Shahrukh Malik GitHub"
+                aria-label="Shahrukh Malik GitHub Profile"
               >
                 <Github size={16} />
               </a>
 
               <a
+                id="hero-email-btn"
                 href={`mailto:${email}`}
                 className="social-icon-btn"
                 title={`Email ${email}`}
+                aria-label="Send Email to Shahrukh Malik"
               >
                 <Mail size={16} />
               </a>
 
               <button
+                id="hero-copy-email-btn"
                 onClick={() => copyToClipboard(email, 'Email')}
                 className="social-icon-btn"
                 title="Copy Email Address"
+                aria-label="Copy Email Address"
               >
                 <Copy size={16} />
               </button>
@@ -104,8 +114,11 @@ export default function Hero({ copyToClipboard }) {
             <div className="portrait-img-wrap">
               <img
                 src="/images/author-professional.jpeg"
-                alt="Shahrukh Malik — Full-Stack Developer & Technical Lead"
+                alt="Shahrukh Malik — Full-Stack Developer &amp; Technical Lead"
                 loading="eager"
+                fetchPriority="high"
+                width="480"
+                height="600"
               />
               <div className="portrait-overlay-gradient" />
               <div className="portrait-footer-info">

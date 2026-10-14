@@ -10,9 +10,9 @@ export default function Fleet() {
               <ShieldCheck size={14} />
               <span>ENTERPRISE INFRASTRUCTURE SPOTLIGHT</span>
             </div>
-            <h3 className="fleet-title">
-              Orchestrating 200+ Laravel Websites & Cross-Functional Teams
-            </h3>
+            <h2 className="fleet-title">
+              Orchestrating 200+ Laravel Websites &amp; Cross-Functional Teams
+            </h2>
             <p className="fleet-desc">
               Managing a fleet of over 200 active domain-based websites requires disciplined DevOps, automated caching strategies, and seamless coordination between technical and non-technical stakeholders.
             </p>

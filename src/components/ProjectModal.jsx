@@ -15,6 +15,7 @@ export default function ProjectModal({ project, onClose }) {
           onClick={e => e.stopPropagation()}
         >
           <button
+            id="modal-close-btn"
             onClick={() => onClose()}
             className="modal-close-btn"
             aria-label="Close dialog"
@@ -25,7 +26,9 @@ export default function ProjectModal({ project, onClose }) {
           <div className="modal-header-img">
             <img
               src={project.image}
-              alt={project.name}
+              alt={`${project.name} — Architecture & System Overview`}
+              width="800"
+              height="350"
             />
           </div>
 
@@ -86,6 +89,7 @@ export default function ProjectModal({ project, onClose }) {
             <div className="modal-footer-actions">
               {project.url && (
                 <a
+                  id="modal-visit-live-site-btn"
                   href={project.url}
                   target="_blank"
                   rel="noreferrer"
@@ -96,6 +100,7 @@ export default function ProjectModal({ project, onClose }) {
                 </a>
               )}
               <button
+                id="modal-close-footer-btn"
                 onClick={() => onClose()}
                 className="btn-secondary"
               >

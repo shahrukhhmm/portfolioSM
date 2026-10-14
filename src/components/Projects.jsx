@@ -47,8 +47,11 @@ export default function Projects() {
                 ? projects.length
                 : projects.filter(p => p.category === cat).length
 
+              const slug = cat.toLowerCase().replace(/[^a-z0-9]/g, '-')
+
               return (
                 <button
+                  id={`filter-pill-${slug}`}
                   key={cat}
                   role="tab"
                   aria-selected={activeCategory === cat}
@@ -65,18 +68,21 @@ export default function Projects() {
           <div className="search-box-wrap">
             <Search size={16} className="search-icon" />
             <input
+              id="project-search-input"
               type="text"
               placeholder="Search by tech or keyword..."
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
               className="search-input"
-              aria-label="Search projects"
+              aria-label="Search projects by tech, keyword or platform"
             />
             {searchQuery && (
               <button
+                id="clear-search-btn"
                 onClick={() => setSearchQuery('')}
                 className="clear-search-btn"
                 title="Clear search"
+                aria-label="Clear search query"
               >
                 <X size={14} />
               </button>
@@ -86,17 +92,29 @@ export default function Projects() {
 
         {/* Projects Grid */}
         <div className="projects-grid">
-          {filteredProjects.map((item, index) => (
+          {filteredProjects.map((item) => (
             <article
+              id={`project-card-${item.id}`}
               key={item.id}
               className="project-card"
+              role="button"
+              tabIndex={0}
               onClick={() => setSelectedProject(item)}
+              onKeyDown={e => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault()
+                  setSelectedProject(item)
+                }
+              }}
+              aria-label={`View details for ${item.name}`}
             >
               <div className="project-thumb-wrap">
                 <img
                   src={item.image}
-                  alt={item.name}
+                  alt={`${item.name} — Architecture & Production Screenshot`}
                   loading="lazy"
+                  width="600"
+                  height="340"
                 />
                 <div className="project-thumb-overlay" />
                 <span className="project-badge-type">{item.category}</span>

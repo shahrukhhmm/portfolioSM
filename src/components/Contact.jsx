@@ -44,9 +44,11 @@ export default function Contact({ copyToClipboard, showToast }) {
                   </div>
                 </div>
                 <button
+                  id="contact-copy-email-btn"
                   onClick={() => copyToClipboard(email, 'Email')}
                   className="copy-btn"
                   title="Copy Email"
+                  aria-label="Copy email address to clipboard"
                 >
                   <Copy size={13} />
                   <span>Copy</span>
@@ -107,31 +109,37 @@ export default function Contact({ copyToClipboard, showToast }) {
 
             <div className="social-links-group" style={{ marginTop: 'auto' }}>
               <a
+                id="contact-linkedin-link"
                 href={linkedinUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="btn-secondary"
                 style={{ fontSize: '12px', padding: '8px 14px' }}
+                aria-label="Visit Shahrukh Malik LinkedIn profile"
               >
                 <Linkedin size={14} />
                 <span>LinkedIn</span>
               </a>
               <a
+                id="contact-github-link"
                 href={githubUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="btn-secondary"
                 style={{ fontSize: '12px', padding: '8px 14px' }}
+                aria-label="Visit Shahrukh Malik GitHub profile"
               >
                 <Github size={14} />
                 <span>GitHub</span>
               </a>
               <a
+                id="contact-resume-download-link"
                 href={cvPath}
                 download="Shahrukh_Malik_Resume.pdf"
                 className="btn-secondary"
                 style={{ fontSize: '12px', padding: '8px 14px' }}
                 title="Download Shahrukh Malik Resume (PDF)"
+                aria-label="Download Shahrukh Malik Resume PDF"
               >
                 <FileDown size={14} />
                 <span>Resume (PDF)</span>
@@ -189,7 +197,7 @@ export default function Contact({ copyToClipboard, showToast }) {
                 />
               </div>
 
-              <button type="submit" className="btn-submit-message">
+              <button id="contact-submit-btn" type="submit" className="btn-submit-message" aria-label="Send message via email">
                 <span>Send Message via Email</span>
                 <Send size={15} />
               </button>

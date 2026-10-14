@@ -26,6 +26,7 @@ export default function Header({ theme, toggleTheme, mobileMenuOpen, setMobileMe
 
         <div className="header-actions">
           <button
+            id="header-theme-toggle-btn"
             onClick={toggleTheme}
             className="theme-toggle-btn"
             title={`Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`}
@@ -35,6 +36,7 @@ export default function Header({ theme, toggleTheme, mobileMenuOpen, setMobileMe
           </button>
 
           <a
+            id="header-resume-download-btn"
             href={cvPath}
             download="Shahrukh_Malik_Resume.pdf"
             className="btn-header-cv"
@@ -44,12 +46,13 @@ export default function Header({ theme, toggleTheme, mobileMenuOpen, setMobileMe
             <span>Resume (PDF)</span>
           </a>
 
-          <a href="#contact" className="btn-header-cta">
+          <a id="header-contact-cta-btn" href="#contact" className="btn-header-cta">
             <span>Let's Talk</span>
             <ArrowUpRight size={15} />
           </a>
 
           <button
+            id="header-mobile-menu-toggle-btn"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="menu-toggle-btn"
             aria-label="Toggle Menu"

@@ -890,6 +890,7 @@ button, input, textarea, select {
 .pillar-3 .pillar-icon { background: rgba(192, 132, 252, 0.12); color: var(--accent-purple); }
 .pillar-4 .pillar-icon { background: rgba(16, 185, 129, 0.12); color: var(--accent-emerald); }
 
+.pillar-card h3,
 .pillar-card h4 {
   font-family: var(--font-heading);
   font-size: 16px;
